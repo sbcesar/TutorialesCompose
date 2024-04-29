@@ -1,3 +1,5 @@
+package ImageManipulation
+
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.remember

@@ -1,5 +1,6 @@
+package ImageManipulation
+
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -75,8 +76,6 @@ fun <T> AsyncImage(
             try {
                 load()
             } catch (e: IOException) {
-                // instead of printing to console, you can also write this to log,
-                // or show some error placeholder
                 e.printStackTrace()
                 null
             }
